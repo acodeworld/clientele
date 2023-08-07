@@ -1,0 +1,22 @@
+.sidebar-container {
+    position: absolute;
+    width: 350px;
+   
+
+    height: 100vh;
+    background-color: white;
+    z-index: 1;
+    padding: 0.5em;
+
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5em;
+}
+
+.department {
+    padding: 0.3em;
+}

@@ -1,0 +1,42 @@
+nav {
+    // background-color: rgb(120, 62, 62);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+
+    h1 {
+        font-size: 2rem;
+        background: white;
+        color: black;
+        mix-blend-mode: screen;
+        padding: 1px 4px;
+        font-family:  'DM Sans', sans-serif;
+    }
+
+    .nav-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon{
+        color: white;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+
+    .burger-icon {
+        // position: absolute;
+        margin-right: 15px;
+        // z-index: 99;
+        // color: greenyellow;
+    }
+
+    .icon-right {
+        margin-left: 15px;
+    }
+}
+
+Link {
+    text-decoration: none;
+}

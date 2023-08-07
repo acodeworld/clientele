@@ -1,0 +1,38 @@
+li {
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 1.35em;
+    font-weight: 400;
+    
+}
+
+input {
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+    font-family: DM Sans;
+}
+
+.footer-left-container,
+.footer-right-container {
+    display: flex;
+}
+
+.footer-right-container ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 0.7em;
+}
+
+.footer-left-container {
+    flex-direction: column;
+}
